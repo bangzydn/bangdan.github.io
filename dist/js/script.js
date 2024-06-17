@@ -52,14 +52,3 @@ if (localStorage.theme === "dark" || (!("theme" in localStorage) && window.match
 } else {
   darkToogle.checked = true;
 }
-
-const sr = ScrollReveal({
-  origin: 'top',
-  distance: '60px',
-  duration: 2500,
-  delay: 400
-})
-
-sr.reveal('.home_container',{origin:'right'})
-sr.reveal('.about_container, .home__info, .about__container .section__title-1, .about__info, .contact__social, .contact__data',{origin:'left'})
-sr.reveal('.service__card, .projects__card',{interval:100})
