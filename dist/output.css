@@ -558,8 +558,8 @@ video {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 90px;
-  padding-left: 90px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 @media (min-width: 640px) {
@@ -1092,16 +1092,16 @@ video {
   padding-top: 0.125rem;
 }
 
+.pt-28 {
+  padding-top: 7rem;
+}
+
 .pt-32 {
   padding-top: 8rem;
 }
 
 .pt-36 {
   padding-top: 9rem;
-}
-
-.pt-28 {
-  padding-top: 7rem;
 }
 
 .text-center {
